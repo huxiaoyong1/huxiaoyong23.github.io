@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biographical Notes</title>
+    <style>
+        /*div{*/
+        /*    border:1px solid red;*/
+        /*}*/
+        .info>p{
+            margin: 0;
+            /*border: 1px solid black;*/
+            width: 250px;
+            display: inline-block;
+            padding: 10px;
+            text-indent: 20px;
+            /*letter-spacing: 2px;*/
+        }
+        .container{
+            border:1px solid skyblue;
+            width: 800px;
+            height: 1500px;
+            background-color: #eeeeff;
+            margin: auto;
+        }
+        .baseinfo{
+            height: 16%;
+        }
+        .info{
+            width: 600px;
+            float: left;
+        }
+
+        .education{
+            height: 12%;
+        }
+        .experience{
+            height: 34%;
+        }
+        .skills{
+            height: 15%;
+        }
+        .me{
+            height: 15%;
+        }
+        .line{
+            width:760px;
+            height: 40px;
+            background-color:white;
+            color: white;
+            letter-spacing: 2px;
+            text-indent: 10px;
+            line-height: 40px;
+            font-size: 20px;
+            margin:10px 18px 0 18px;
+        }
+        .linetitle{
+            color: white;
+            font-size: 16px;
+            margin-left: 20px;
+        }
+        .linetitle span{
+            display: inline-block;
+            width:30%;
+            text-align: center;
+        }
+        .linetitle span:first-child
+        {
+           text-align: left;
+        }
+        .linetitle span:last-child{
+            text-align: right;
+        }
+        .text{
+            text-indent: 30px;
+
+        }
+        .text:before{
+            content: "·";
+            margin-right: 8px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="baseinfo">
+            <div class="info">
+                <p style="font-size: 30px;color: lightseagreen;font-weight: bold">胡小勇</p><br>
+                <p>政治面貌：共青团员</p> <p>求职意向：java开发工程师</p><br>
+                <p>生日：1999.4.14</p> <p>手机：18692064506</p><br>
+                <p>民族：汉族</p> <p>邮箱：2237646716@qq.com</p><br>
+                <p>身高：172cm</p> <p>体重：60kg</p>
+            </div>
+         
+
+        </div>
+
+        <div class="education">
+            <div class="line">教育经历/Education</div>
+            <div>
+                <p class="linetitle"><span>2017.09-2021.06</span>  <span>湖南工商大学北津学院</span>  <span>信息与计算科学专业/本科</span></p>
+                <p class="text">课程：数据结构　</p>
+                <p class="text">课程：算法导论　</p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="line">工作经历/Experience</div>
+            <div>
+                <p class="linetitle"><span>2020.05-2020.08</span>   <span>XX公司</span>  <span>XX工程师</span></p>
+                <p class="text">负责：</p>
+                <p class="text">负责：</p>
+               
+            </div>
+            <div>
+                <p class="linetitle"><span>20XX.04-今</span>  <span>XX公司</span>   <span>XX岗位</span></p>
+                <p class="text">负责：</p>
+                <p class="text">负责：</p>
+          
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="line">个人技能/Personal Skills</div>
+
+            <div>
+                <p class="text">技能：
+1.熟练掌握UDP和TCP,掌握线程和io流等知识
+2.	熟练掌握HTML、CSS、JS 、JQuery , 懂得运用前端框架bootstrop
+3.	熟练掌握MySQL、ORACLE数据库
+4.	具有丰富的JAVAEE项目开发经验,熟练运用标准MySQL语句
+5.	熟悉Eclipse/MyEclipse在Windows下进行java开发
+6.	熟悉java面向对象编程，良好地规范代码编写习惯
+</p>
+              
+            </div>
+        </div>
+
+        <div class="me">
+            <div class="line">自我评价/About Me</div>
+
+            <div>
+                <p class="text">自学能力强,对知识盲区具有良好的学习习惯，有梳理总结
+                    错误习惯，代码注释习惯，良好的沟通能力，可以很快的融入一个团队中
+                    一起工作，踏踏实实，不懂就学,不懂就问，积极向上，乐观开朗。
+                    在生活中我的兴趣爱好比较广泛，喜欢探索各类的事物，对新奇的事物抱
+                    有好奇。
+                    在一起完成项目中我是一个十分积极力求完善自身负责部分的人。
+</p>
+              
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
